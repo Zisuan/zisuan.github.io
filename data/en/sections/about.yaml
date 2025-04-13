@@ -19,7 +19,7 @@ designation: Looking for a career in cyber security!
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a fresh Computer Science graduate from Nanyang Technological University in Singapore, passionate about leveraging technology to uncover vulnerabilities and push the boundaries of digital security. My academic journey has fueled my curiosity for artificial intelligence and cybersecurity, with a particular focus on offensive security. I am currently upskilling myself in my technical capability of a penetration tester with plans to obtain certifications such as OSCP'
+summary: 'I am a fresh Computer Science graduate from Nanyang Technological University in Singapore, passionate about leveraging technology to uncover vulnerabilities and push the boundaries of digital security. My academic journey has fueled my curiosity for artificial intelligence and cybersecurity, with a particular focus on offensive security. I am currently upskilling myself in my technical capability of a penetration tester with plans to obtain certifications such as OSCP and CPTS'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -38,7 +38,7 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "www.linkedin.com/in/zisuanl"
+  url: "https://www.linkedin.com/in/zisuanl"
 
 #- name: Twitter
 #  icon: "fab fa-twitter"
@@ -67,10 +67,6 @@ socialLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Google Cybersecurity
-  url: "https://www.credly.com/badges/f64c8553-f4e6-4dac-bebe-f1246b72651b/public_url"
-  badge: "https://images.credly.com/size/340x340/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png"
 
 # - type: certification
 #   name: Istio and IBM Cloud Kubernetes Service
@@ -97,6 +93,10 @@ badges:
   percentage: 100
   color: orange
 
+- type: certification
+  name: Google Cybersecurity
+  url: "https://www.credly.com/badges/f64c8553-f4e6-4dac-bebe-f1246b72651b/public_url"
+  badge: "https://images.credly.com/size/340x340/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png"
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1

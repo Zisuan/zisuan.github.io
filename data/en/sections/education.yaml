@@ -11,7 +11,7 @@ section:
 
 degrees:
   - name: Bachelor of Engineering - BE, Computer Science
-    icon: fa-microscope
+    icon: fa-graduation-cap
     timeframe: 2021-2024
     institution:
       name: Nanyang Technological University, Singapore
@@ -30,13 +30,13 @@ degrees:
     #   url: "#"
     # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
     #   url: "#"
-# - name: B.Sc. in Computer Science & Engineering
-#   icon: fa-graduation-cap
-#   timeframe: 2012-2016
-#   institution:
-#     name: University of XYZ
-#     url: "#"
-#     logo: /images/sections/education/university.jpg
+  - name: Diploma in Computer Engineering
+    icon: fa-graduation-cap
+    timeframe: 2016-2019
+    institution:
+      name: Singapore Polytechnic, Singapore
+      url: "https://www.sp.edu.sg/"
+      logo: /images/sections/education/sp.png
 #     # Can optionally show a different logo for dark theme
 #     # darkLogo: /images/sections/education/university.jpg
 #   grade: #(optional)
