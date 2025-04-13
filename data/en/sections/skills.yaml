@@ -9,69 +9,69 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
-# buttons:
-# - name: All
-#   filter: "all"
-# - name: Basic
-#   filter: "basic"
-# - name: Language
-#   filter: "language"
-# - name: Container
-#   filter: "container"
-# - name: Others
-#   filter: "others"
+#filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Tools
+    filter: "tools"
+  - name: Language
+    filter: "language"
+  - name: Operating Systems
+    filter: "os"
+  - name: Others
+    filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Offensive Security
-  logo: /images/sections/skills/offsec.png
-  summary: "Familiar with basic offensive security techniques including enumeration, exploitation, and privilege escalation. Exploring tools and methodologies used in ethical hacking."
-  categories: ["security", "offensive"]
-  url: "https://www.offensive-security.com/"
+  - name: Offensive Security
+    logo: /images/sections/skills/offsec.jpg
+    summary: "Familiar with basic offensive security techniques including enumeration, exploitation, and privilege escalation. Exploring tools and methodologies used in ethical hacking."
+    categories: ["others"]
+    url: "https://www.offensive-security.com/"
 
-- name: Linux (Security Use)
-  logo: /images/sections/skills/linux.png
-  summary: "Using Linux as the primary OS for security testing and CTF practice. Comfortable with bash scripting, file permissions, and common privilege escalation techniques."
-  categories: ["os", "security"]
+  - name: Linux (Security Use)
+    logo: /images/sections/skills/linux.png
+    summary: "Using Linux as the primary OS for security testing and CTF practice. Comfortable with bash scripting, file permissions, and common privilege escalation techniques."
+    categories: ["os"]
 
-- name: Nmap & Enumeration
-  logo: /images/sections/skills/nmap.png
-  summary: "Able to perform basic scanning and enumeration using Nmap. Familiar with service detection, version scanning, and scripting engine usage."
-  categories: ["tools", "offensive"]
-  url: "https://nmap.org/"
+  - name: Nmap & Enumeration
+    logo: /images/sections/skills/nmap.jpg
+    summary: "Able to perform basic scanning and enumeration using Nmap. Familiar with service detection, version scanning, and scripting engine usage."
+    categories: ["tools"]
+    url: "https://nmap.org/"
 
-- name: Burp Suite
-  logo: /images/sections/skills/burp.png
-  summary: "Capable of using Burp Suite Community Edition for basic web application testing, intercepting requests, and manipulating parameters."
-  categories: ["tools", "web"]
-  url: "https://portswigger.net/burp"
+  - name: Burp Suite
+    logo: /images/sections/skills/burp.png
+    summary: "Capable of using Burp Suite Community Edition for basic web application testing, intercepting requests, and manipulating parameters."
+    categories: ["tools"]
+    url: "https://portswigger.net/burp"
 
-- name: Python for Exploits
-  logo: /images/sections/skills/python.png
-  summary: "Learning to use Python for scripting basic exploits, fuzzers, and automation tasks."
-  categories: ["language", "automation"]
-  url: "https://www.python.org/"
+  - name: Python for Exploits
+    logo: /images/sections/skills/python.png
+    summary: "Learning to use Python for scripting basic exploits, fuzzers, and automation tasks."
+    categories: ["language"]
+    url: "https://www.python.org/"
 
-- name: Web Application Testing
-  logo: /images/sections/skills/webapp.png
-  summary: "Understand common web vulnerabilities like XSS and SQLi. Practicing through platforms like HackTheBox and CTF challenges."
-  categories: ["web", "offensive"]
+  - name: Web Application Testing
+    logo: /images/sections/skills/webapp.png
+    summary: "Understand common web vulnerabilities like XSS and SQLi. Practicing through platforms like HackTheBox and CTF challenges."
+    categories: ["others"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Using Git for tracking scripts and write-ups from labs and CTFs. Familiar with basic branching and version control operations."
-  categories: ["tools"]
-  url: "https://git-scm.com/"
+  - name: GitHub
+    logo: /images/sections/skills/github.jpg
+    summary: "Using GitHub for tracking scripts and write-ups from labs and CTFs. Familiar with basic branching and version control operations."
+    categories: ["tools"]
+    url: "https://github.com"
 
-- name: Metasploit Framework
-  logo: /images/sections/skills/metasploit.png
-  summary: "Getting started with Metasploit for known exploit execution, payload generation, and post-exploitation basics."
-  categories: ["tools", "offensive"]
-  url: "https://www.metasploit.com/"
+  - name: Metasploit Framework
+    logo: /images/sections/skills/metasploit.png
+    summary: "Getting started with Metasploit for known exploit execution, payload generation, and post-exploitation basics."
+    categories: ["tools"]
+    url: "https://www.metasploit.com/"
 
-- name: CTF Platforms
-  logo: /images/sections/skills/ctf.png
-  summary: "Actively practicing on platforms like HackTheBox, CTF challenges to sharpen hands-on offensive security skills."
-  categories: ["offensive", "learning"]
+  - name: CTF Platforms
+    logo: /images/sections/skills/ctf.png
+    summary: "Actively practicing on platforms like HackTheBox, CTF challenges to sharpen hands-on offensive security skills."
+    categories: ["others"]
