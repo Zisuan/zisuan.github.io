@@ -25,47 +25,53 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Offensive Security
+  logo: /images/sections/skills/offsec.png
+  summary: "Familiar with basic offensive security techniques including enumeration, exploitation, and privilege escalation. Exploring tools and methodologies used in ethical hacking."
+  categories: ["security", "offensive"]
+  url: "https://www.offensive-security.com/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
-- name: Linux
+- name: Linux (Security Use)
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Using Linux as the primary OS for security testing and CTF practice. Comfortable with bash scripting, file permissions, and common privilege escalation techniques."
+  categories: ["os", "security"]
+
+- name: Nmap & Enumeration
+  logo: /images/sections/skills/nmap.png
+  summary: "Able to perform basic scanning and enumeration using Nmap. Familiar with service detection, version scanning, and scripting engine usage."
+  categories: ["tools", "offensive"]
+  url: "https://nmap.org/"
+
+- name: Burp Suite
+  logo: /images/sections/skills/burp.png
+  summary: "Capable of using Burp Suite Community Edition for basic web application testing, intercepting requests, and manipulating parameters."
+  categories: ["tools", "web"]
+  url: "https://portswigger.net/burp"
+
+- name: Python for Exploits
+  logo: /images/sections/skills/python.png
+  summary: "Learning to use Python for scripting basic exploits, fuzzers, and automation tasks."
+  categories: ["language", "automation"]
+  url: "https://www.python.org/"
+
+- name: Web Application Testing
+  logo: /images/sections/skills/webapp.png
+  summary: "Understand common web vulnerabilities like XSS and SQLi. Practicing through platforms like HackTheBox and CTF challenges."
+  categories: ["web", "offensive"]
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  summary: "Using Git for tracking scripts and write-ups from labs and CTFs. Familiar with basic branching and version control operations."
+  categories: ["tools"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Metasploit Framework
+  logo: /images/sections/skills/metasploit.png
+  summary: "Getting started with Metasploit for known exploit execution, payload generation, and post-exploitation basics."
+  categories: ["tools", "offensive"]
+  url: "https://www.metasploit.com/"
+
+- name: CTF Platforms
+  logo: /images/sections/skills/ctf.png
+  summary: "Actively practicing on platforms like HackTheBox, CTF challenges to sharpen hands-on offensive security skills."
+  categories: ["offensive", "learning"]
