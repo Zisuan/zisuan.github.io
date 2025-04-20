@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Zi Suan's Blog</title><link>https://zisuan.github.io/posts/</link><description>Recent content in Posts on Zi Suan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://zisuan.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - Lame (Retired Machine) Walk Through</title><link>https://zisuan.github.io/posts/lame_machine/lame/</link><pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate><guid>https://zisuan.github.io/posts/lame_machine/lame/</guid><description>&lt;ul>
+&lt;li>&lt;strong>Machine Name&lt;/strong>: &lt;code>Lame&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Difficulty&lt;/strong>: &lt;code>Easy&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reconnaissance">Reconnaissance&lt;/h2>
+&lt;p>Reconnaissance is a critical first step to identify exposed services and potential attack vectors on the target system.&lt;/p>
+&lt;h3 id="nmap-scan">Nmap Scan&lt;/h3>
+&lt;p>Guided Question: How many of the nmap top 1000 TCP ports are open on the remote host?&lt;/p>
+&lt;p>This can be found out by running the command:&lt;/p>
+&lt;pre tabindex="0">&lt;code>nmap --top-ports=1000 ip {target ip address}
+&lt;/code>&lt;/pre>&lt;br>
+&lt;img src="https://zisuan.github.io/posts/Lame_Machine/nmap.png"
+alt="nmap scan"
+>
+&lt;br>
+From the results, we can see that there are 4 open ports:
+&lt;p>File Transfer Protocol (FTP) - Port 21
+&lt;br>
+Secure Shell (SSH) - Port 22
+&lt;br>
+NetBIOS SMB - Port 139
+&lt;br>
+Server Message Block (SMB) - Port 445&lt;/p></description></item></channel></rss>
